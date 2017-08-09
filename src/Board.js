@@ -11,6 +11,7 @@ export class Board extends Component {
 	super(props);
 	this.state = { grid: [], rows: 5, cols: 5, foundCount: 0 };
 	this.handleClick.bind(this);
+	this.checkBingo.bind(this);
     }
 
     componentDidMount() {
@@ -32,13 +33,37 @@ export class Board extends Component {
 	    c-=1;
 	}
 	this.setState({grid: g, foundCount:c});
+	this.checkBingo(i);
     }
 
+
+    checkBingo = (i) => {
+	let col = i % this.state.cols;
+	let row = Math.floor(i/this.state.rows);
+	let rowIndex = row*this.state.rows;
+	let colIndex = col;
+	let rowCount = 0;
+	let colCount = 0;
+	for (let j = 0; j < this.state.rows; j++){
+	    if (this.state.grid[rowIndex].clicked === true)
+		rowCount++;
+	    if (this.state.grid[colIndex].clicked === true)
+		colCount++;
+	    rowIndex++;
+	    colIndex=colIndex+this.state.cols;
+	}
+	console.log("counts row " + rowCount + " col " + colCount);
+	if (colCount === 5)
+	    console.log("win " + colCount + " col " + col);
+	else if (rowCount === 5)
+	    console.log("win " + rowCount + " row " + row);
+    }
+    
     render() {
 	let g = this.state.grid.slice();
 	if (g.length > 0) {
-	    console.log(JSON.stringify(this.state.grid[0]));
-	    console.log(this.state.foundCount);
+	    //console.log(JSON.stringify(this.state.grid[0]));
+	    //console.log(this.state.foundCount);
 	}
 	return (
 		<div className="bingoboard">
