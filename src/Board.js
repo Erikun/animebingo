@@ -9,7 +9,7 @@ import json from './anime.json';
 export class Board extends Component {
     constructor(props) {
 	super(props);
-	this.state = { grid: [], rows: 5, cols: 5, foundCount: 0 };
+	this.state = { grid: [], rows: 5, cols: 5, foundCount: 0, bingo: false };
 	this.handleClick.bind(this);
 	this.checkBingo.bind(this);
     }
@@ -53,27 +53,31 @@ export class Board extends Component {
 	    colIndex=colIndex+this.state.cols;
 	}
 	console.log("counts row " + rowCount + " col " + colCount);
-	if (colCount === 5)
-	    console.log("win " + colCount + " col " + col);
-	else if (rowCount === 5)
-	    console.log("win " + rowCount + " row " + row);
-    }
-    
-    render() {
-	let g = this.state.grid.slice();
-	if (g.length > 0) {
-	    //console.log(JSON.stringify(this.state.grid[0]));
-	    //console.log(this.state.foundCount);
+	if (colCount === this.state.cols || rowCount === this.state.rows) {
+	    console.log("win");
+	    this.setState({bingo: true});
 	}
-	return (
-		<div className="bingoboard">
+    }	
+    
+	render() {
+	    return (
+		    <div className="bingoboard">
+		    {this.state.bingo &&
+		     <div className="overlay">
+		     <span className="overlayText">WIN</span>
+		    </div> 
+		    }
+		    
 		{this.state.grid.map((data,index) => {
-		    let sqstyle = { backgroundColor: data.clicked ? "blue" : "grey" };
-		    return(
-			    <Square style={sqstyle} key={index} data = {data}  onClick = {this.handleClick.bind(null, index)}/>)})}
-	    </div>
-
-	)
-    }
-
+			let sqstyle = { backgroundColor: data.clicked ? "blue" : "grey" };
+			return(
+				<Square style={sqstyle} isBingo={this.state.bingo} key={index} data = {data}  onClick = {this.handleClick.bind(null, index)}/>
+			)
+		    }
+					)
+		    }
+		
+		    </div>
+	    )
+	}
 }
