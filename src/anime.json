@@ -1,150 +1,203 @@
 [{
-    "key": 1,
-    "description": "Blabla",
+    "name": "Spiky Hair",
+    "description": "There is not enough hair spray in the world.",
     "category": "hair",
-    "image":"totoro.jpg"
+    "example": "http://hunterxhunter.wikia.com/wiki/Gon_Freecss",
+    "image":"spikyhair.jpg"
 },
 {
-    "key": 2,
-    "description": "Blabla",
+    "name": "Blue hair",
+    "description": "Its blue, and noone seems to notice",
     "category": "hair",
-    "image":"totoro.jpg"
+    "example": "http://fairytail.wikia.com/wiki/Juvia_Lockser",
+    "image":"bluehair.jpg"
 },
 {
-    "key": 3,
-    "description": "Blabla",
-    "category": "hair",
-    "image":"totoro.jpg"
+    "name": "Dead mother",
+    "description": "Tragic childhood makes for great motivations",
+    "category": "story",
+    "example": "http://attackontitan.wikia.com/wiki/Carla_Yeager",
+    "image":"deadmother.jpg"
 },
 {
-    "key": 4,
-    "description": "Blabla",
-    "category": "hair",
-    "image":"totoro.jpg"
+    "name": "Looking for parent",
+    "description": "Absent parenting in the extreme",
+    "category": "story",
+    "example": "http://hunterxhunter.wikia.com/wiki/Ging_Freecss",
+    "image":"lookparent.jpg"
 },
 {
-    "key": 5,
-    "description": "Blabla",
-    "category": "hair",
-    "image":"totoro.jpg"
+    "name": "Samurai",
+    "description": "There's a samurai in it, or maybe several",
+    "category": "character",
+    "example": "https://en.wikipedia.org/wiki/Rurouni_Kenshin",
+    "image":"samurai.jpg"
 },
 {
-    "key": 6,
-    "description": "Blabla",
-    "category": "hair",
-    "image":"totoro.jpg"
+    "name": "Ninja",
+    "description": "There's a ninja in it, or maybe several",
+    "example": "https://en.wikipedia.org/wiki/Naruto",
+    "category": "character",
+    "image":"ninja.jpg"
 },
 {
-    "key": 7,
-    "description": "Blabla",
-    "category": "hair",
-    "image":"totoro.jpg"
+    "name": "Maid",
+    "description": "There's a maid in it, or maybe several",
+    "category": "character",
+    "example": "http://maid-dragon.wikia.com/wiki/Tohru",
+    "image":"maid.jpg"
 },
 {
-    "key": 8,
-    "description": "Blabla",
-    "category": "hair",
-    "image":"totoro.jpg"
+    "name": "Harem",
+    "description": "Lots of girls, only one guy",
+    "category": "story",
+    "example": "https://en.wikipedia.org/wiki/Love_Hina",
+    "image":"totoroharem.jpg"
 },
 {
-    "key": 9,
-    "description": "Blabla",
-    "category": "hair",
-    "image":"totoro.jpg"
+    "name": "Reverse harem",
+    "description": "Lots of guys, only one girl",
+    "category": "story",
+    "example": "https://en.wikipedia.org/wiki/Uta_no_Prince-sama",
+    "image":"harem.jpg"
 },
 {
-    "key": 10,
-    "description": "Blabla",
-    "category": "hair",
-    "image":"totoro.jpg"
+    "name": "Idol",
+    "description": "There's an idol in it, or maybe several",
+    "category": "character",
+    "example": "https://en.wikipedia.org/wiki/Love_Live!",
+    "image":"idol.jpg"
 },
 {
-    "key": 11,
-    "description": "Blabla",
-    "category": "hair",
-    "image":"totoro.jpg"
+    "name": "Boy band",
+    "description": "There's a boy band in it, or maybe several",
+    "category": "tory",
+    "example": "https://en.wikipedia.org/wiki/Shōnen_Hollywood",
+    "image":"boyband.jpg"
 },
 {
-    "key": 12,
-    "description": "Blabla",
-    "category": "hair",
-    "image":"totoro.jpg"
+    "name": "Spirit",
+    "description": "Spirit is all you need really",
+    "category": "story",
+    "example": "https://en.wikipedia.org/wiki/Yowamushi_Pedal",
+    "image":"spirit.jpg"
 },
 {
-    "key": 13,
-    "description": "Blabla",
-    "category": "hair",
-    "image":"totoro.jpg"
+    "name": "Otaku",
+    "description": "There's an otaku in it, or maybe several",
+    "category": "character",
+    "example": "http://edenoftheeast.wikia.com/wiki/Yutaka_Itazu",
+    "image":"otaku.jpg"
 },
 {
-    "key": 14,
-    "description": "Blabla",
-    "category": "hair",
-    "image":"totoro.jpg"
+    "name": "Dragon",
+    "description": "There's a dragon in it, or maybe several",
+    "category": "character",
+    "example": "http://maid-dragon.wikia.com/wiki/Tohru",
+    "image":"dragon.jpg"
 },
 {
-    "key": 15,
-    "description": "Blabla",
-    "category": "hair",
-    "image":"totoro.jpg"
+    "name": "Bulter",
+    "description": "There's a butler in it, or maybe several",
+    "category": "character",
+        "example": "https://en.wikipedia.org/wiki/Black_Butler",
+    "image":"butler.jpg"
 },
 {
-    "key": 16,
-    "description": "Blabla",
-    "category": "hair",
-    "image":"totoro.jpg"
+    "name": "Neko",
+    "description": "There's a cat in it, or maybe several",
+    "category": "character",
+    "example": "http://fairytail.wikia.com/wiki/Happy",
+    "image":"neko.jpg"
 },
 {
-    "key": 17,
-    "description": "Blabla",
-    "category": "hair",
-    "image":"totoro.jpg"
+    "name": "Catgirl",
+    "description": "One girl is a girl with catlike characteristics",
+    "category": "character",
+    "example": "https://myanimelist.net/character/14945/Ao_Nanami",
+    "image":"catgirl.jpg"
 },
 {
-    "key": 18,
-    "description": "Blabla",
-    "category": "hair",
-    "image":"totoro.jpg"
+    "name": "Tsundere",
+    "description": "There's a tsundere character",
+    "category": "character",
+    "example": "https://en.wikipedia.org/wiki/Tsundere",
+    "image":"tsundere.jpg"
 },
 {
-    "key": 19,
-    "description": "Blabla",
-    "category": "hair",
-    "image":"totoro.jpg"
+    "name": "Imouto",
+    "description": "There's a character that is  a little sister",
+    "category": "character",
+    "example": "http://k-on.wikia.com/wiki/Ui_Hirasawa",
+    "image":"littlesister.jpg"
 },
 {
-    "key": 20,
-    "description": "Blabla",
-    "category": "hair",
-    "image":"totoro.jpg"
+    "name": "Bokken",
+    "description": "One character uses a wooden sword",
+    "category": "weapon",
+    "example": "http://gintama.wikia.com/wiki/Gintoki%27s_Bokutō",
+    "image":"bokken.jpg"
 },
 {
-    "key": 21,
-    "description": "Blabla",
+    "key": "Pompadour",
+    "description": "There's a character with a pompadour",
     "category": "hair",
-    "image":"totoro.jpg"
+    "example": "http://shokugekinosoma.wikia.com/wiki/Kanichi_Konishi",
+    "image":"pompador.jpg"
 },
 {
-    "key": 22,
-    "description": "Blabla",
+    "name": "Afro",
+    "description": "There's a character with an afro",
     "category": "hair",
-    "image":"totoro.jpg"
+    "example": "https://en.wikipedia.org/wiki/Afro_Samurai",
+    "image":"afro.jpg"
 },
 {
-    "key": 23,
-    "description": "Blabla",
-    "category": "hair",
-    "image":"totoro.jpg"
+    "name": "Fundoshi",
+    "description": "A character wears a traditional japanese loincloth",
+    "category": "clothing",
+        "example": "https://en.wikipedia.org/wiki/Fundoshi",
+    "image":"loincloth.jpg"
 },
 {
-    "key": 24,
-    "description": "Blabla",
-    "category": "hair",
-    "image":"totoro.jpg"
+    "name": "Giant robot",
+    "description": "There's a giant robot, or maybe several",
+    "category": "character",
+    "example": "https://en.wikipedia.org/wiki/The_Big_O",
+    "image":"giantrobot.jpg"
 },
 {
-    "key": 25,
-    "description": "Blabla",
-    "category": "hair",
-    "image":"totoro.jpg"
+    "name": "Knee high stockings",
+    "description": "A character wears knee high stockings",
+    "category": "clothing",
+    "example": "http://saekano.wikia.com/wiki/Eriri_Spencer_Sawamura",
+    "image":"khstockings.jpg"
+},
+{
+    "name": "Knight",
+    "description": "There's a knight, or maybe several",
+    "category": "character",
+    "example": "http://hero.wikia.com/wiki/Saber_(Fate)",
+    "image":"knight.jpg"
+},
+{
+    "name": "Kimono",
+    "description": "A character wears a kimono",
+    "category": "clothing",
+    "example": "http://champloo.wikia.com/wiki/Fuu",
+    "image":"kimono.jpg"
+},
+{
+    "name": "Gakuran",
+    "description": "A character wears a traditional male student uniform",
+    "category": "clothing",
+    "example": "http://mob-psycho-100.wikia.com/wiki/Shigeo_Kageyama",
+    "image":"gakuran.jpg"
+},
+{
+    "name": "Sailor fuku",
+    "description": "A character wears a school sailor uniform",
+    "category": "clothing",
+    "example": "http://inuyasha.wikia.com/wiki/Kagome_Higurashi",
+    "image":"fuku.jpg"
 }]
