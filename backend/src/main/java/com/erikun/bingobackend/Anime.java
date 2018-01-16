@@ -1,7 +1,9 @@
 package com.erikun.bingobackend;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
+@Document(collection="anime")
 public class Anime {
 
     @Id

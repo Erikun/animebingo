@@ -12,12 +12,13 @@ public class BingobackendApplication implements CommandLineRunner{
     private AnimeRepository animeRepository;
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(BingobackendApplication.class, args);
 	}
 
 	@Override
-    public void run(String[] args) throws Exception {
-	    System.out.println("///////FindAll////////");
-        System.out.println(animeRepository.findAll());
+    public void run(String... arg) throws Exception{
+	    animeRepository.findAll();
     }
+
 }
